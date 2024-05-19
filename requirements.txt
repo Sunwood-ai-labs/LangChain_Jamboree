@@ -3,6 +3,12 @@ langchain-openai
 langchain_community
 langgraph
 faiss_cpu
-art
+
 beautifulsoup4
+
+# utils
+art
 termcolor
+
+# langfuse
+langfuse
