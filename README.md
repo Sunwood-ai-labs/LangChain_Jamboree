@@ -22,6 +22,7 @@
 
 </p>
 
+# LangChain Jamboree
 
 LangChain Jamboreeへようこそ！このリポジトリは、最先端のLLMフレームワークであるLangChainを使って、楽しみながら学ぶことを目的としています。
 
@@ -34,6 +35,7 @@ LangChain Jamboreeは、LangChainの様々な機能を体験できるサンプ�
 - 🔍 外部検索ツールの統合
 - 🗣️ チャットエージェントの作成
 - 🌊 ストリーミングレスポンスの生成
+- 🐞 LangChainアプリケーションのデバッグとモニタリング（Langfuseを使用）
 
 初心者から上級者まで、LangChainを使ったプログラミングを楽しめるように設計されています。
 
@@ -48,6 +50,7 @@ LangChain Jamboreeは、LangChainの様々な機能を体験できるサンプ�
 
 - `example/`: LangChainの様々な機能を学べるサンプルコードが入っています。
   - `langchain_agent_sample/`: エージェントに関するサンプルコード
+  - `langfuse_sample/`: Langfuseを使用したデバッグとモニタリングのサンプルコード
 - `docker-compose.yml`: Dockerコンテナの設定ファイル
 - `Dockerfile`: Dockerイメージのビルド手順
 - `requirements.txt`: 必要なPythonライブラリのリスト
