@@ -6,6 +6,8 @@ from termcolor import colored
 from art import *
 import os
 
+
+
 # スクリプト名を取得して出力
 script_name = os.path.basename(__file__)
 tprint(script_name)
