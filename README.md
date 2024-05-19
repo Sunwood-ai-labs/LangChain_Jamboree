@@ -1,10 +1,9 @@
-
 <p align="center">
-<img src="https://huggingface.co/datasets/MakiAi/IconAssets/resolve/main/Gaiah_icon_2.png" width="100%">
+<img src="https://huggingface.co/datasets/MakiAi/IconAssets/resolve/main/LangChain_icon.png" width="100%">
 <br>
-<h1 align="center">Gaiah Generated Repository</h1>
+<h1 align="center">LangChain Jamboree</h1>
 <h2 align="center">
-  ～Python Git Automation with Innovative Heuristics～
+  ～LangChainを使って楽しく学ぼう！～
 
 </h2>
 
@@ -24,19 +23,45 @@
 </p>
 
 
-このリポジトリは、Gaiahというシンプルなリポジトリ管理ツールを使用して自動的に作成されたものです。Gaiahは、人工知能（AI）を活用したコード生成ツールであり、開発者がより効率的にプログラムを作成することを支援します。
+LangChain Jamboreeへようこそ！このリポジトリは、最先端のLLMフレームワークであるLangChainを使って、楽しみながら学ぶことを目的としています。
 
-## Gaiahについて
+## 🎉 LangChain Jamboreeとは？
 
-Gaiahは、開発者がコードを生成し、リポジトリを管理するための便利なCLIツールです。以下のような機能を提供しています:
+LangChain Jamboreeは、LangChainの様々な機能を体験できるサンプルコードのコレクションです。以下のようなLangChainの機能を学ぶことができます:
 
-- コマンドライン引数を使用したリポジトリの作成と初期化
-- コミットメッセージファイルからのコミットの自動処理
-- 新しいリポジトリのGitHub上への作成
-- ファイルの変更検知とステージング、コミット、プッシュの自動化
+- 🤖 言語モデル（LLM）の設定
+- 💾 メモリの設定と保存
+- 🔍 外部検索ツールの統合
+- 🗣️ チャットエージェントの作成
+- 🌊 ストリーミングレスポンスの生成
 
-Gaiahは、開発者がコーディングに集中できるように、リポジトリ管理のプロセスを簡素化し、自動化します。
+初心者から上級者まで、LangChainを使ったプログラミングを楽しめるように設計されています。
 
-## リポジトリの構造
+## 🚀 はじめに
 
-このリポジトリは、Gaiahによって自動的に生成および管理されています。リポジトリの構造は以下のようになっています:
+1. このリポジトリをクローンまたはダウンロードします。
+2. `requirements.txt`を使って必要なライブラリをインストールします: `pip install -r requirements.txt`
+3. `.env`ファイルを作成し、OpenAI APIキーとTavily APIキーを設定します。
+4. `example`ディレクトリ内のサンプルコードを実行して、LangChainの機能を体験しましょう！
+
+## 📂 リポジトリの構造
+
+- `example/`: LangChainの様々な機能を学べるサンプルコードが入っています。
+  - `langchain_agent_sample/`: エージェントに関するサンプルコード
+- `docker-compose.yml`: Dockerコンテナの設定ファイル
+- `Dockerfile`: Dockerイメージのビルド手順
+- `requirements.txt`: 必要なPythonライブラリのリスト
+
+## 🙌 コントリビューション
+
+LangChain Jamboreeはオープンソースプロジェクトです。新しいサンプルコードの追加や、既存のコードの改善にご協力ください！プルリクエストをお待ちしています。
+
+## 📜 ライセンス
+
+このプロジェクトはMITライセンスの下で公開されています。詳細は`LICENSE`ファイルを参照してください。
+
+## 🤝 謝辞
+
+LangChain Jamboreeは、LangChainコミュニティの皆様からのインスピレーションを得て作成されました。LangChainの開発者の皆様に感謝いたします。
+
+それでは、LangChainの世界を楽しんでください！🎉
